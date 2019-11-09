@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Document</title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<script>
+				var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + article + "&api-key=6Eq0Zfel8fooXuWBRktLYF6H8NUnuAof";
+
+			    $("#find-article").on("click", function(event) {
+
+			// event.preventDefault() can be used to prevent an event's default behavior.
+			// Here, it prevents the submit button from trying to submit a form when clicked
+			event.preventDefault();
+
+			// Here we grab the text from the input box
+			var article = $("#article-input").val();
+			     }
+		</script>
+	</body>
+</html>
